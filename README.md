@@ -93,11 +93,4 @@ Results are saved to `~/Desktop/Subjects` under a filename combining `Patient_ID
 - The grid-trimming steps use hard-coded row indices tied to the default grid dimensions. Changing `testingDepth`, `testingHeight`, or `testsPerLoc` will require revisiting those index ranges so the right locations are removed.
 - The script assumes eye tracking is active (`ET = 1`). Running without a tracker would need the EyeLink calls guarded or stubbed out.
 - Intended for vision science research; not validated as a clinical diagnostic tool.
-
-## Citation
-
-If you use this code in your research, please cite the Huxlin Lab and link back to this repository. (Add specific publication details here if available.)
-
-## License
-
-No license file is currently included in this repository. Contact the Huxlin Lab (huxlinlab) for terms of use.
+- This version of ADAPT is the most up to date version used by the Huxlin Lab for ongoing testing. It has undergone minor optimization tweaks from the version used in the upcoming JoV paper.
